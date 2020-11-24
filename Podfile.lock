@@ -1,0 +1,22 @@
+PODS:
+  - Pod1 (0.1.0):
+    - Pod2
+  - Pod2 (0.1.0)
+
+DEPENDENCIES:
+  - Pod1 (from `LocalPods/Pod1`)
+  - Pod2 (from `LocalPods/Pod2`)
+
+EXTERNAL SOURCES:
+  Pod1:
+    :path: LocalPods/Pod1
+  Pod2:
+    :path: LocalPods/Pod2
+
+SPEC CHECKSUMS:
+  Pod1: 3d8e6e8a61076b6fed3a8dc2749e16dbb079ac71
+  Pod2: a983d26aab20938ee9139509c4701fe66aae30d9
+
+PODFILE CHECKSUM: a2a52a3967fd0b5be196807c0515da1879aba502
+
+COCOAPODS: 1.9.3
